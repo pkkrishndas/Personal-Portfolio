@@ -1,14 +1,7 @@
 * {
-  margin: 2px;
-  padding: 2px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
-body {
-    font-family: 'Poppins', sans-serif;
 }
 
 .heroH1 {
@@ -20,10 +13,7 @@ body {
     color: #4a5568;
     line-height: 1.625;
     margin-top: 1rem;
-}
-
-.Profile {
-  border-radius: 50%;
+    font-size: larger;
 }
 
 
@@ -72,4 +62,57 @@ body {
 
 .Resume:hover {
     background-color: #374151;
+}
+
+#home {
+  min-height: 100vh;
+  background-color: #fdf6e3;
+}
+
+#About {
+  min-height: 100vh;  
+  background-color: #fdf6e3;   
+}
+#Project {
+  background-color: #fdf6e3;
+}
+#Contact {
+  background-color: #fdf6e3;
+}
+
+.AboutMe {
+  text-align: center;
+}
+
+.About-Intro {
+    max-width: 32rem;
+    color: #4a5568;
+    line-height: 1.625;
+    margin-top: 1rem;
+    font-size: larger;
+}
+
+#About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    min-height: 100vh;
+}
+
+.Contac-Intro {
+  max-width: 32rem;
+  color: #4a5568;
+  line-height: 1.625;
+  margin-top: 1rem;
+  font-size: larger;
 }

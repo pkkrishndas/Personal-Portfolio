@@ -14,7 +14,7 @@ Hare krishna! Welcome to my **personal portfolio website**! Built using **React 
 - **Deployment**: Vercel / Netlify / GitHub Pages  
 
 ## 📸 Live Preview  
-🔗 **[View My Portfolio](your-portfolio-link)**  
+🔗 **[View My Portfolio]https://localhost:5173**  
 
 ![Portfolio Screenshot](link-to-screenshot)  
 

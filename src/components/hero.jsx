@@ -21,7 +21,8 @@ function Hero() {
             <img className="Profile" src="/Pi.jpg" alt="Profile" width="200" />
             <div className="mt-6 space-x-4">
                 <button className="hire-me" onClick={() => navigate("/contact")}>Hire me</button>
-                <a href="/Piyush_Kumar_Resume.pdf" download>
+                <a href="/Piyush_Kumar_Resume.pdf" download><br />
+                <br />
                 <button className="Resume">Download Resume</button>
                 </a>
             </div>
